@@ -1,0 +1,5 @@
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Final Version For Submission\CSFileManager\bin\Debug\CSFileManager.dll
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Final Version For Submission\CSFileManager\bin\Debug\CSFileManager.pdb
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Final Version For Submission\CSFileManager\obj\Debug\CSFileManager.csprojResolveAssemblyReference.cache
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Final Version For Submission\CSFileManager\obj\Debug\CSFileManager.dll
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Final Version For Submission\CSFileManager\obj\Debug\CSFileManager.pdb

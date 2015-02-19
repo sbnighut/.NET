@@ -1,0 +1,18 @@
+C:\SU\temp\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.exe.config
+C:\SU\temp\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.csprojResolveAssemblyReference.cache
+C:\SU\temp\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.exe
+C:\SU\temp\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.pdb
+C:\SU\temp\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.exe
+C:\SU\temp\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.pdb
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.exe.config
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.exe
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\bin\Debug\TypeRelationships.pdb
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.csprojResolveAssemblyReference.cache
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.exe
+C:\Users\sbnighut\Desktop\SMA\Visual Studio 2013 Projects\Project2HelpF14 (2)\TypeRelationships\TypeRelationships\obj\Debug\TypeRelationships.pdb
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\bin\Debug\TypeRelationships.exe.config
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\bin\Debug\TypeRelationships.exe
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\bin\Debug\TypeRelationships.pdb
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\obj\Debug\TypeRelationships.csprojResolveAssemblyReference.cache
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\obj\Debug\TypeRelationships.exe
+C:\Users\sbnighut\Desktop\Final SMA - Swapnil Nighut\SMA Project 2 Version 1\TypeRelationships\obj\Debug\TypeRelationships.pdb

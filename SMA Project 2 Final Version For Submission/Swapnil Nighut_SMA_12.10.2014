@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--SMA Project 2-->
+<Code_Analyser>
+  <File Name="Analyzer.txt.cs">
+    <Namespace Name="CSAnalyzer">
+      <Class Name="Analyzer">
+        <Relationship>Analyzer aggregates BuildCodeAnalyzer</Relationship>
+        <Function Complexity="5">DoAnalysis</Function>
+        <Function Complexity="8">InsertValueTypes</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="CommandLineParser.cs">
+    <Namespace Name="SMA_Project_2_Version_1">
+      <Delegate Return_Type="int">PerformCalculation</Delegate>
+      <enum>RelationShip</enum>
+      <Class Name="CommandLineParser">
+        <Function Complexity="0">CommandLineParser</Function>
+        <Function Complexity="10">RetrievePathPatternsOptions</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="Executive.cs">
+    <Namespace Name="SMA_Project_2_Version_1">
+      <Class Name="Executive">
+        <Relationship>Executive aggregates Analyzer</Relationship>
+        <Function Complexity="14">Main</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="IRuleandAction.cs">
+    <Namespace Name="CodeAnalysis">
+      <Interface Name="IAction" />
+      <Class Name="AAction">
+        <Relationship>AAction inherits from IAction</Relationship>
+        <Relationship>AAction composes bool displaySemi_</Relationship>
+        <Relationship>AAction composes bool displayStack_</Relationship>
+        <Function Complexity="2">display</Function>
+        <Interface Name="IRule" />
+      </Class>
+      <Class Name="ARule">
+        <Relationship>ARule inherits from IRule</Relationship>
+        <Relationship>ARule composes bool test</Relationship>
+        <Function Complexity="0">ARule</Function>
+        <Function Complexity="0">add</Function>
+        <Function Complexity="1">doActions</Function>
+        <Function Complexity="7">indexOfType</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="Parser.cs">
+    <Namespace Name="CodeAnalysis">
+      <Class Name="Parser">
+        <Function Complexity="0">Parser</Function>
+        <Function Complexity="0">add</Function>
+        <Function Complexity="4">parse</Function>
+      </Class>
+      <Class Name="TestParser">
+        <Function Complexity="2">ProcessCommandline</Function>
+        <Function Complexity="7">ShowCommandLine</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="RulesAndActions.cs">
+    <Namespace Name="CodeAnalysis">
+      <Class Name="Subscriber">
+        <Function Complexity="0">myMethod</Function>
+      </Class>
+      <Class Name="Publisher">
+        <Relationship>Publisher composes struct Book</Relationship>
+        <Function Complexity="9">Del</Function>
+        <Struct Name="Book" />
+        <Delegate Return_Type="void">Del</Delegate>
+        <Struct Name="Book" />
+      </Class>
+      <Class Name="Elem">
+        <Relationship>Elem composes struct Book</Relationship>
+        <Struct Name="Book" />
+        <Function Complexity="0">Elem</Function>
+        <Function Complexity="0">DelegateMethod</Function>
+        <Function Complexity="4">ToString</Function>
+      </Class>
+      <Class Name="Repository">
+        <Relationship>Repository aggregates ScopeStack</Relationship>
+        <Function Complexity="0">Repository</Function>
+        <Function Complexity="8">getInstance</Function>
+      </Class>
+      <Class Name="PushStack">
+        <Relationship>PushStack inherits from AAction</Relationship>
+        <Relationship>PushStack aggregates Elem</Relationship>
+        <Function Complexity="0">PushStack</Function>
+        <Function Complexity="7">doAction</Function>
+        <Function Complexity="1">CheckAndAddNewReferenceTypes</Function>
+        <Function Complexity="2">SetComplexityOfFunction</Function>
+        <Function Complexity="1">IsAggregationDetected</Function>
+        <Function Complexity="4">IsCompositionDetected</Function>
+        <Function Complexity="1">DetectInheritence</Function>
+      </Class>
+      <Class Name="PopStack">
+        <Relationship>PopStack inherits from AAction</Relationship>
+        <Function Complexity="0">PopStack</Function>
+        <Function Complexity="8">doAction</Function>
+      </Class>
+      <Class Name="PrintFunction">
+        <Relationship>PrintFunction inherits from AAction</Relationship>
+        <Function Complexity="0">PrintFunction</Function>
+        <Function Complexity="2">display</Function>
+        <Function Complexity="0">doAction</Function>
+      </Class>
+      <Class Name="Print">
+        <Relationship>Print inherits from AAction</Relationship>
+        <Function Complexity="0">Print</Function>
+        <Function Complexity="0">doAction</Function>
+      </Class>
+      <Class Name="DetectNamespace">
+        <Relationship>DetectNamespace inherits from ARule</Relationship>
+        <Function Complexity="1">test</Function>
+      </Class>
+      <Class Name="DetectClass">
+        <Relationship>DetectClass inherits from ARule</Relationship>
+        <Function Complexity="4">test</Function>
+      </Class>
+      <Class Name="DetectFunction">
+        <Relationship>DetectFunction inherits from ARule</Relationship>
+        <Function Complexity="3">isSpecialToken</Function>
+        <Function Complexity="4">test</Function>
+      </Class>
+      <Class Name="DetectAnonymousScope">
+        <Relationship>DetectAnonymousScope inherits from ARule</Relationship>
+        <Function Complexity="4">test</Function>
+        <Function Complexity="4">containsSpecialToken</Function>
+        <Function Complexity="2">NoBrace</Function>
+      </Class>
+      <Class Name="DetectLeavingScope">
+        <Relationship>DetectLeavingScope inherits from ARule</Relationship>
+        <Function Complexity="1">test</Function>
+      </Class>
+      <Class Name="DetectComposition">
+        <Relationship>DetectComposition inherits from ARule</Relationship>
+        <Relationship>DetectComposition composes bool isValueTypePresent</Relationship>
+        <Function Complexity="2">test</Function>
+      </Class>
+      <Class Name="DetectAggregation">
+        <Relationship>DetectAggregation inherits from ARule</Relationship>
+        <Relationship>DetectAggregation composes bool isNewKeywordPresent</Relationship>
+        <Function Complexity="2">test</Function>
+      </Class>
+      <Class Name="DetectDelegates">
+        <Relationship>DetectDelegates inherits from ARule</Relationship>
+        <Function Complexity="1">test</Function>
+        <enum>RelationShip</enum>
+      </Class>
+      <Class Name="BuildCodeAnalyzer">
+        <Relationship>BuildCodeAnalyzer aggregates Repository</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates Parser</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates PushStack</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectNamespace</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectClass</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectFunction</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectAnonymousScope</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectLeavingScope</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates PopStack</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectComposition</Relationship>
+        <Relationship>BuildCodeAnalyzer aggregates DetectAggregation</Relationship>
+        <Function Complexity="0">BuildCodeAnalyzer</Function>
+        <Function Complexity="4">build</Function>
+      </Class>
+    </Namespace>
+  </File>
+  <File Name="ScopeStack.cs">
+    <Namespace Name="CodeAnalysis">
+      <Class Name="ScopeStack">
+        <Function Complexity="0">push</Function>
+        <Function Complexity="1">pop</Function>
+        <Function Complexity="7">clear</Function>
+        <Function Complexity="0">lastPopped</Function>
+        <Function Complexity="1">display</Function>
+      </Class>
+      <Class Name="Test">
+        <Relationship>Test composes struct Elem</Relationship>
+        <Relationship>Test aggregates ScopeStack</Relationship>
+        <Struct Name="Elem" />
+        <Function Complexity="0">make</Function>
+        <Function Complexity="1">ToString</Function>
+        <Function Complexity="0">Main</Function>
+      </Class>
+    </Namespace>
+  </File>
+</Code_Analyser>
